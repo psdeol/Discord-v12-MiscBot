@@ -7,7 +7,7 @@ module.exports = {
     async execute(message, Discord) {
      
         let embed = new Discord.MessageEmbed()
-        .setTitle('UTILITY BOT COMMANDS')
+        .setTitle('MISC BOT COMMANDS')
         .addFields(
             { 
                 name: '\\image <Search>',
