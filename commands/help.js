@@ -10,25 +10,25 @@ module.exports = {
         .setTitle('UTILITY BOT COMMANDS')
         .addFields(
             { 
-                name: '!image <Search>',
+                name: '\\image <Search>',
                 value: 'searches google for an image' 
             },
             { 
-                name: '!delete <Number>',
-                value: 'bulk deletes messages, up to 98 at a time' 
+                name: '\\delete <Number>',
+                value: 'bulk deletes messages, up to 99 at a time' 
             },
             { 
-                name: '!emojify <Sentence>', 
+                name: '\\emojify <Sentence>', 
                 value: 'sends sentence using emojis' 
             },
             { 
-                name: '!poll | <Question> | <Option1> | <Option2> | ... | ',
+                name: '\\poll | <Question> | <Option1> | <Option2> | ... | ',
                 value: 'creates a poll' 
             }
         )
         .setColor('ORANGE');
 
         await message.channel.send({ embeds: [embed]});
-
+        //message.delete();
     }
 }

@@ -33,5 +33,6 @@ module.exports = {
         }
 
         await message.channel.send({ content: sentence });
+        //message.delete();
     }
 }

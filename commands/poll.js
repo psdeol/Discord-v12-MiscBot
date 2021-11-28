@@ -33,5 +33,7 @@ module.exports = {
         for (let i = 0; i < num_options; i++) {
             embed_message.react(emojis[i]);
         }
+
+        //message.delete();
     }
 }

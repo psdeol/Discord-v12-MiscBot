@@ -29,6 +29,6 @@ module.exports = {
         .setImage(image_results[num].url);
 
         await message.channel.send({ embeds: [embed]});
-
+        //message.delete();
     }
 }
